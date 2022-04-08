@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Igreja Mosaico</title>
+        <title>Paloma Freitas</title>
         <meta name="description" content="Site da Igreja Mosaico" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

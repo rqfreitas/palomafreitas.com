@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { GetStaticProps } from 'next';
-import { Flex, Stack, Image } from '@chakra-ui/react';
+import { Flex, Stack, Image, Button } from '@chakra-ui/react';
 
 import { LoginForm } from '../../components';
 
@@ -20,7 +20,7 @@ const Login = () => {
       router.push(`${query.from}`);
     }
     else {
-      router.push('/');
+      router.push('/admin');
     }
   };
 
@@ -32,7 +32,11 @@ const Login = () => {
       bg="gray.700">
       <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
         <Stack align={'center'}>
+          
           <Image src="/logo/color-white.png" alt="Mosaico Igreja" minW="300px" width="100%" />
+          <a href="https://palomafreitas.com">
+            <Button p={6}>Volte para PalomaFreitas.com</Button>
+          </a>
         </Stack>
         <LoginForm onRedirect={onRedirect} />
       </Stack>

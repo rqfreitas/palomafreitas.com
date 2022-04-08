@@ -20,7 +20,7 @@ const Sidebar = ({ links, onClose, ...rest }: SidebarProps) => {
       h="full"
       {...rest}>
       <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
-        <Image src="/logo/color-white.png" alt="Mosaico Igreja" width="8em" />
+        <Image src="/logo/color-white.png" alt="Paloma Freitas" width="8em" />
         <CloseButton display={{ base: 'flex', md: 'none' }} onClick={onClose} />
       </Flex>
       {sidebarLinks.map((link) => (

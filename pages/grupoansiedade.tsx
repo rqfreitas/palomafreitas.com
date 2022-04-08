@@ -32,33 +32,33 @@ const GrupoAnsiedade = () => {
           Grupo Manejo de Ansiedade
         </Heading>
         <a href='https://www.youtube.com/channel/UCc1VABtxI-Pf-yAbRvc5Zbw'>
-        <Button
-          rounded={'full'}
+          <Button
+            rounded={'full'}
             bg={'purple.700'}
             color={'white'}
             _hover={{bg: 'purple.300',}}
-             leftIcon={<FaWhatsapp />}>
+            leftIcon={<FaWhatsapp />}>
                 Nosso Whatsapp
-        </Button></a>
+          </Button></a>
         <a href='../'>
-        <Button marginLeft={3}
-          rounded={'full'}
-          bg={'purple.700'}
-          color={'white'}
-          _hover={{
-            bg: 'purple.300',
-          }}>
+          <Button marginLeft={3}
+            rounded={'full'}
+            bg={'purple.700'}
+            color={'white'}
+            _hover={{
+              bg: 'purple.300',
+            }}>
           PalomaFreitas.com
-        </Button></a>
+          </Button></a>
         
       </HStack>
       
-       
+      
       <HStack spacing={2}>
         <Flex borderRadius={2} overflowY={'hidden'} boxShadow='lg'  rounded='xl' bg='white'>    
-            <Box height={580} width={640}  overflowY={'scroll'} >
+          <Box height={580} width={640}  overflowY={'scroll'} >
             <iframe  scrolling='yes' src='https://docs.google.com/forms/d/e/1FAIpQLSfP90_p1bqrWNVChncE9S0cHAMxm5PT8KuDMncO9vQVwM9wDA/viewform?embedded=true' width='640' height='2345' frameBorder='0'  >Loading…</iframe>
-            </Box>  
+          </Box>  
         </Flex>
       
         <Flex p={8}  flex={1} >
