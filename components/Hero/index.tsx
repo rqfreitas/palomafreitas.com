@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaLinkedin,FaMedium, FaMediumM, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { RiArticleLine } from "react-icons/ri";
 
 import { MdSettings } from 'react-icons/md'
 
@@ -46,7 +47,7 @@ const Hero = () => {
       </Button>
     </a>
 
-    <a href='/grupoansiedade' isExternal>
+    <a href='/grupoansiedade' >
     <Button marginTop={1}  _hover={{ bg: '#F765A3', color: '#F9D1D1'}} shadow={'2xl'}  color='white' bgColor='#FFA4B6' width={500}>
       Grupo Manejo de Ansiedade
     </Button>
@@ -59,7 +60,7 @@ const Hero = () => {
     </a>
 
     <a href='https://palomasfreitas.medium.com/'>
-    <Button marginTop={1}  _hover={{ bg: '#F765A3', color: '#F9D1D1'}} shadow={'2xl'}  color='white' bgColor='#FFA4B6' width={500}>
+    <Button marginTop={1}  _hover={{ bg: '#F765A3', color: '#F9D1D1'}} shadow={'2xl'}  color='white' bgColor='#FFA4B6' width={500} leftIcon={<RiArticleLine />}>
       Artigos
     </Button></a>
 

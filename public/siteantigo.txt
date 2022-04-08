@@ -1,0 +1,30 @@
+<div id="links">
+        <a
+        class="link"
+        href="https://api.whatsapp.com/send?phone=5581996110403"
+        target="_blank"
+        >Agendamentos</a
+      >
+<a
+        class="link"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfP90_p1bqrWNVChncE9S0cHAMxm5PT8KuDMncO9vQVwM9wDA/viewform"
+        target="_blank"
+        >Grupo Manejo de Ansiedade</a
+      >
+<a
+        class="link"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScwcGolyJnM1_JkRQ0IP5R9bUsNy-8nd6R8RJtGKneWKjcDqA/viewform"
+        target="_blank"
+        >Grupo Habilidade de Vida</a
+>        <a
+        class="link"
+        href="https://palomasfreitas.medium.com"
+        target="_blank"
+        >Artigos</a
+      >
+      <a class="link" href="http://www.institutodrtiagoqueiroz.com.br/" target="_blank"
+        >ITQ</a
+      >
+    </div>
+
+    <!-- Javascript -->

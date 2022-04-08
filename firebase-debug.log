@@ -1,0 +1,137 @@
+[debug] [2022-04-08T03:24:12.426Z] ----------------------------------------------------------------------
+[debug] [2022-04-08T03:24:12.426Z] Command:       /opt/homebrew/Cellar/node/17.4.0/bin/node /opt/homebrew/Cellar/node/17.4.0/bin/firebase init
+[debug] [2022-04-08T03:24:12.427Z] CLI Version:   10.6.0
+[debug] [2022-04-08T03:24:12.427Z] Platform:      darwin
+[debug] [2022-04-08T03:24:12.427Z] Node Version:  v17.4.0
+[debug] [2022-04-08T03:24:12.427Z] Time:          Fri Apr 08 2022 00:24:12 GMT-0300 (Brasilia Standard Time)
+[debug] [2022-04-08T03:24:12.427Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-08T03:24:12.455Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-08T03:24:12.455Z] > authorizing via signed-in user (rodrigofreitas@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/rodrigofreitas/Documents/Coding/palomafreitas.com
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-04-08T03:24:17.587Z] Using project from CLI flag: mosaico-website-af329
+[debug] [2022-04-08T03:24:17.590Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mosaico-website-af329 [none]
+[debug] [2022-04-08T03:24:18.507Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mosaico-website-af329 403
+[debug] [2022-04-08T03:24:18.507Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mosaico-website-af329 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-04-08T03:24:18.508Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-04-08T03:24:18.829Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/opt/homebrew/Cellar/node/17.4.0/lib/node_modules/firebase-tools/lib/responseToError.js:47:12)
+    at RetryOperation._fn (/opt/homebrew/Cellar/node/17.4.0/lib/node_modules/firebase-tools/lib/apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project mosaico-website-af329. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-04-08T03:25:24.430Z] ----------------------------------------------------------------------
+[debug] [2022-04-08T03:25:24.430Z] Command:       /opt/homebrew/Cellar/node/17.4.0/bin/node /opt/homebrew/Cellar/node/17.4.0/bin/firebase init
+[debug] [2022-04-08T03:25:24.431Z] CLI Version:   10.6.0
+[debug] [2022-04-08T03:25:24.431Z] Platform:      darwin
+[debug] [2022-04-08T03:25:24.431Z] Node Version:  v17.4.0
+[debug] [2022-04-08T03:25:24.434Z] Time:          Fri Apr 08 2022 00:25:24 GMT-0300 (Brasilia Standard Time)
+[debug] [2022-04-08T03:25:24.434Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-08T03:25:24.463Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-08T03:25:24.463Z] > authorizing via signed-in user (rodrigofreitas@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/rodrigofreitas/Documents/Coding/palomafreitas.com
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-04-08T03:25:28.842Z] Using project from CLI flag: palomafreitas-4f1eb
+[debug] [2022-04-08T03:25:28.846Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/palomafreitas-4f1eb [none]
+[debug] [2022-04-08T03:25:30.098Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/palomafreitas-4f1eb 200
+[debug] [2022-04-08T03:25:30.099Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/palomafreitas-4f1eb {"projectId":"palomafreitas-4f1eb","projectNumber":"632908627384","displayName":"palomafreitas","name":"projects/palomafreitas-4f1eb","resources":{"hostingSite":"palomafreitas-4f1eb","storageBucket":"palomafreitas-4f1eb.appspot.com","locationId":"us-east4"},"state":"ACTIVE"}
+[info] i  Using project palomafreitas-4f1eb (palomafreitas) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at /Users/rodrigofreitas/Documents/Coding/palomafreitas.com 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=327237328&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-04-08T03:30:16.922Z] ----------------------------------------------------------------------
+[debug] [2022-04-08T03:30:16.923Z] Command:       /opt/homebrew/Cellar/node/17.4.0/bin/node /opt/homebrew/Cellar/node/17.4.0/bin/firebase init
+[debug] [2022-04-08T03:30:16.923Z] CLI Version:   10.6.0
+[debug] [2022-04-08T03:30:16.923Z] Platform:      darwin
+[debug] [2022-04-08T03:30:16.923Z] Node Version:  v17.4.0
+[debug] [2022-04-08T03:30:16.924Z] Time:          Fri Apr 08 2022 00:30:16 GMT-0300 (Brasilia Standard Time)
+[debug] [2022-04-08T03:30:16.924Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-08T03:30:16.952Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-08T03:30:16.952Z] > authorizing via signed-in user (rodrigofreitas@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/rodrigofreitas/Documents/Coding/palomafreitas.com
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-04-08T03:30:26.484Z] Using project from CLI flag: palomafreitas-4f1eb
+[debug] [2022-04-08T03:30:26.487Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/palomafreitas-4f1eb [none]
+[debug] [2022-04-08T03:30:27.794Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/palomafreitas-4f1eb 200
+[debug] [2022-04-08T03:30:27.795Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/palomafreitas-4f1eb {"projectId":"palomafreitas-4f1eb","projectNumber":"632908627384","displayName":"palomafreitas","name":"projects/palomafreitas-4f1eb","resources":{"hostingSite":"palomafreitas-4f1eb","storageBucket":"palomafreitas-4f1eb.appspot.com","locationId":"us-east4"},"state":"ACTIVE"}
+[info] i  Using project palomafreitas-4f1eb (palomafreitas) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at /Users/rodrigofreitas/Documents/Coding/palomafreitas.com 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=887861842&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
