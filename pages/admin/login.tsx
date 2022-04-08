@@ -1,0 +1,43 @@
+import React from 'react';
+import { useRouter } from 'next/router';
+import { GetStaticProps } from 'next';
+import { Flex, Stack, Image } from '@chakra-ui/react';
+
+import { LoginForm } from '../../components';
+
+export const getStaticProps: GetStaticProps = async () => ({
+  props: {
+    isPublic: true
+  },
+});
+
+const Login = () => {
+  const router = useRouter();
+
+  const onRedirect = () => {
+    const { query } = router;
+    if (query.from) {
+      router.push(`${query.from}`);
+    }
+    else {
+      router.push('/');
+    }
+  };
+
+  return (
+    <Flex
+      minH={'100vh'}
+      align={'center'}
+      justify={'center'}
+      bg="gray.700">
+      <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
+        <Stack align={'center'}>
+          <Image src="/logo/color-white.png" alt="Mosaico Igreja" minW="300px" width="100%" />
+        </Stack>
+        <LoginForm onRedirect={onRedirect} />
+      </Stack>
+    </Flex>
+  );
+};
+
+export default Login;
