@@ -40,7 +40,7 @@ const OldHero = () => {
             </Text>{' '}
           </Heading>
           <Flex padding={2} paddingLeft={3} paddingBottom={1}>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DpV1yiIMhnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DpV1yiIMhnM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </Flex>
           <Text fontSize={{ base: 'md', lg: 'lg' }} fontStyle="italic" color={'gray.500'}>
             Desde o barro no gênesis - a criação - somos livres moldados por Deus, mas também chamados a moldar sua criação, revelando imagem e semelhança não só em nós mas em tudo aqui que reordenamos.
@@ -54,9 +54,7 @@ const OldHero = () => {
                 rounded={'full'}
                 bg={'green.700'}
                 color={'white'}
-                _hover={{
-                  bg: 'green.500',
-                }}>
+                _hover={{bg: 'green.400'}}>
                 Assista ao vivo
               </Button>
             </a>
