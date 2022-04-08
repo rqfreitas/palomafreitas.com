@@ -31,11 +31,10 @@ const Login = () => {
       justify={'center'}
       bg="gray.700">
       <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
-        <Stack align={'center'}>
-          
-          <Image src="/logo/color-white.png" alt="Mosaico Igreja" minW="300px" width="100%" />
+        <Stack align={'center'}>  
+          <Image p={8} src="/logo/color-white.png" alt="Mosaico Igreja" minW="300px" width="100%" />
           <a href="https://palomafreitas.com">
-            <Button p={6}>Volte para PalomaFreitas.com</Button>
+            <Button p={6}> Volte para PalomaFreitas.com</Button>
           </a>
         </Stack>
         <LoginForm onRedirect={onRedirect} />
