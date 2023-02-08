@@ -31,14 +31,19 @@ const Hero = () => {
       <Heading  as='h3' size='xs' color={'green.100'} paddingBottom={2}>
             Psicóloga Clínica - CRP 02/17441
       </Heading>
-
+      <a href='/oficinaAutoEstima' >
+        <Button marginTop={1}  _hover={{ bg: '#F765A3', color: '#F9D1D1'}} shadow={'2xl'}  color='white' bgColor='#FFA4B6' w={[300, 400, 500]}>
+        <span color='red'>Oficina: "Construindo a autoestima do seu filho"</span>
+        </Button>
+      </a>
       <a href='https://api.whatsapp.com/send?phone=5581996110403' >
         <Button  _hover={{ bg: '#F765A3', color: '#F9D1D1'}} shadow={'2xl'}  color='white' bgColor='#FFA4B6' w={[300, 400, 500]} leftIcon={<FaWhatsapp />}> 
           Agendamentos
         </Button>
       </a>
-
-      <a href='./grupoansiedade.html' >
+      
+      
+      {/* <a href='./grupoansiedade.html' >
         <Button marginTop={1}  _hover={{ bg: '#F765A3', color: '#F9D1D1'}} shadow={'2xl'}  color='white' bgColor='#FFA4B6' w={[300, 400, 500]}>
           Grupo Manejo de Ansiedade
         </Button>
@@ -47,7 +52,7 @@ const Hero = () => {
         <Button marginTop={1}  _hover={{ bg: '#F765A3', color: '#F9D1D1'}} shadow={'2xl'}  color='white' bgColor='#FFA4B6' w={[300, 400, 500]}>
           Grupo Habilidades para a Vida
         </Button>
-      </a>
+      </a> */}
 
       <a href='http://www.institutodrtiagoqueiroz.com.br/' >
         <Button marginTop={1}  _hover={{ bg: '#F765A3', color: '#F9D1D1'}} shadow={'2xl'}  color='white' bgColor='#FFA4B6' w={[300, 400, 500]}>
