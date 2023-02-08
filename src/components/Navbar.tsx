@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import Avatar from './Avatar'
+// import Avatar from './Avatar'
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
@@ -75,7 +75,7 @@ export default function NavBar() {
                 </button>
 
                 {/* Profile dropdown */}
-                <Avatar />
+                {/* <Avatar /> */}
               </div>
             </div>
           </div>
