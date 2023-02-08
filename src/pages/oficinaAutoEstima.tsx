@@ -1,30 +1,11 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
-import type { GetStaticProps, NextPage } from 'next';
-import { useRouter } from 'next/router';
 
 
-import {
-  Button,
-  Box,
-  Flex,
-  Heading,
-  Image,
-  Stack,
-  HStack,
-  VStack,
-  Text,
-  useBreakpointValue,
-  AspectRatio,
-} from '@chakra-ui/react';
 import NavBar from '../components/Navbar';
 
 
-export const getStaticProps: GetStaticProps = async () => ({
-  props: {
-    isPublic: true
-  },
-});
+
 
 const OficinaAutoEstima = () => {
   return (

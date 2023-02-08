@@ -5,14 +5,7 @@ import { RiArticleLine } from 'react-icons/ri';
 import { MdSettings } from 'react-icons/md';
 
 
-import {
-  Button,
-  Heading,
-  Image,
-  HStack,
-  VStack,
-  IconButton,
-} from '@chakra-ui/react';
+
 import LinkTreeButton from '../components/LinkTreeButton';
 
 const LinkTree = () => {
@@ -44,19 +37,23 @@ const LinkTree = () => {
 
 
 
-      <Heading  as='h5' size='sm'  paddingTop={6} color={'white'} paddingBottom={2}>
+      <div className='text-base font-normal pt-6 text-white pb-2'>
             Redes Sociais
-      </Heading>
-      <HStack>
+      </div>
+      <div className='grid grid-rows-1'>
         <a href="https//instagram.com/palomasfreitas">
-          <IconButton _hover={{ bg: 'pink.500', color: '#FFFFFF'}} bgColor={'white'} color='pink.400' icon={<FaInstagram />} aria-label={''} />
+          <div className='hover:bg-pink-500 hover:text-white bg-white text-pink-400'>
+          <FaInstagram />
+          </div>
         </a>
-        <IconButton _hover={{ bg: 'blue.400', color: '#FFFFFF'}}  bgColor={'white'} color='blue.400' icon={<FaLinkedin />} aria-label={''} />
+        {/* <IconButton _hover={{ bg: 'blue.400', color: '#FFFFFF'}}  bgColor={'white'} color='blue.400' icon={<FaLinkedin />} aria-label={''} /> */}
         <a href="https://palomasfreitas.medium.com/">
-          <IconButton boxShadow='2xl' _hover={{ bg: 'black', color: '#FFFFFF'}} bgColor={'white'} color='black' icon={<FaMediumM />} aria-label={''} />
+          <div className='hover:bg-black hover:text-white bg-white text-black'>
+          <FaMediumM />
+          </div>
         </a>
 
-      </HStack>
+      </div>
       
       
 
