@@ -23,9 +23,9 @@ const LinkTree = () => {
               Psicóloga Clínica - CRP 02/17441
         </div>
       </div>
-      
+      <LinkTreeButton link="https://docs.google.com/forms/d/e/1FAIpQLSet4gtutQmYiO1RUGY0ZmpxU5ckjmNdT8IPwFOP-Xe0IyuBAA/viewform" texto="Grupo - Habilidade pra Vida" />
       <LinkTreeButton link="/oficinaAutoEstima" texto="Oficina - Construindo a autoestima do seu filho" />
-      <LinkTreeButton link="https://api.whatsapp.com/send?phone=5581996110403" texto="<FaWhatsapp /> Agendamentos" />
+      <LinkTreeButton link="https://api.whatsapp.com/send?phone=5581996110403" texto={<FaWhatsapp /> && "Agendamentos"} />
       <LinkTreeButton link="http://www.institutodrtiagoqueiroz.com.br/" texto="Instituto Dr. Tiago Queiroz" />
 
      
@@ -36,23 +36,24 @@ const LinkTree = () => {
 
 
 
-
-      <div className='text-base font-normal pt-6 text-white pb-2'>
+    <div className=' m-auto text-center'>
+      <div className='text-base m-auto font-normal pt-6 text-green-600 pb-2'>
             Redes Sociais
       </div>
       <div className='grid grid-rows-1'>
         <a href="https//instagram.com/palomasfreitas">
-          <div className='hover:bg-pink-500 hover:text-white bg-white text-pink-400'>
+          <div className='hover:bg-pink-500 hover:text-white bg-green-200 text-pink-400 m-auto justify-center text-center'>
           <FaInstagram />
           </div>
         </a>
         {/* <IconButton _hover={{ bg: 'blue.400', color: '#FFFFFF'}}  bgColor={'white'} color='blue.400' icon={<FaLinkedin />} aria-label={''} /> */}
         <a href="https://palomasfreitas.medium.com/">
-          <div className='hover:bg-black hover:text-white bg-white text-black'>
+          <div className='hover:bg-black hover:text-white bg-green-200 text-black'>
           <FaMediumM />
           </div>
         </a>
 
+      </div>
       </div>
       
       
