@@ -1,4 +1,4 @@
-// import React from 'react';
+const d = "doido"
 // import { FaWhatsapp } from 'react-icons/fa';
 
 
