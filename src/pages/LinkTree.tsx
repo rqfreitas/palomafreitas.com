@@ -26,7 +26,7 @@ const LinkTree = () => {
       <LinkTreeButton link="https://docs.google.com/forms/d/e/1FAIpQLSet4gtutQmYiO1RUGY0ZmpxU5ckjmNdT8IPwFOP-Xe0IyuBAA/viewform" texto="Roda da Vida" />
       <LinkTreeButton link="https://docs.google.com/forms/d/e/1FAIpQLSet4gtutQmYiO1RUGY0ZmpxU5ckjmNdT8IPwFOP-Xe0IyuBAA/viewform" texto="Grupo - Habilidade pra Vida" />
   
-      <LinkTreeButton link="/oficinaAutoEstima" texto="Oficina - Construindo a autoestima do seu filho" />
+      {/* <LinkTreeButton link="/oficinaAutoEstima" texto="Oficina - Construindo a autoestima do seu filho" /> */}
       <LinkTreeButton link="https://api.whatsapp.com/send?phone=5581996110403" texto={<FaWhatsapp /> && "Agendamentos"} />
       <LinkTreeButton link="http://www.institutodrtiagoqueiroz.com.br/" texto="Instituto Dr. Tiago Queiroz" />
 
